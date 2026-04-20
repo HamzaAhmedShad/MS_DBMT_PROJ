@@ -19,6 +19,7 @@
 		357936302A120A0F001BBA32 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3579362F2A120A0F001BBA32 /* APIManager.swift */; };
 		357936322A1211B8001BBA32 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357936312A1211B8001BBA32 /* Constant.swift */; };
 		357936342A121C18001BBA32 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357936332A121C18001BBA32 /* ProductListViewController.swift */; };
+		B3D833812F95D884000201FC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D8337F2F95D87C000201FC /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3579362F2A120A0F001BBA32 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		357936312A1211B8001BBA32 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		357936332A121C18001BBA32 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		B3D8337F2F95D87C000201FC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D833812F95D884000201FC /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +91,7 @@
 				357935ED2A1200E4001BBA32 /* apiCallingPractice */,
 				357936042A1200E5001BBA32 /* apiCallingPracticeTests */,
 				3579360E2A1200E5001BBA32 /* apiCallingPracticeUITests */,
+				B3D8337E2F95D87C000201FC /* Frameworks */,
 				357935EC2A1200E4001BBA32 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -222,6 +226,14 @@
 				357936332A121C18001BBA32 /* ProductListViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B3D8337E2F95D87C000201FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8337F2F95D87C000201FC /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,8 +549,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BH5Y2SHAD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = apiCallingPractice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DBMT Project";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -564,8 +578,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BH5Y2SHAD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = apiCallingPractice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DBMT Project";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
